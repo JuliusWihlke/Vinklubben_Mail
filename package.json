@@ -11,7 +11,7 @@
     "litmus": "gulp litmus --production",
     "mail": "gulp mail --production"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "JuliusWihlke <julius@vinklubben.se>",
   "license": "MIT",
   "dependencies": {
     "foundation-emails": "^2.2.1"
