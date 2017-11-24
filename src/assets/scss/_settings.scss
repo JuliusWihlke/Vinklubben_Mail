@@ -115,11 +115,11 @@ $button-font-size: (
   default: 16px,
   large: 20px,
 );
-$button-color: $primary-color;
+$button-color: $white;
 $button-color-alt: $medium-gray;
 $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $white;
+$button-background: $primary-color;
 $button-border: 3px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
