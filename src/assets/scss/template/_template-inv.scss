@@ -23,7 +23,7 @@ body {
 
 // Typography Overrides
 .text-white {
-  color: $white;
+  color: $white !important;
 }
 
 .display {
