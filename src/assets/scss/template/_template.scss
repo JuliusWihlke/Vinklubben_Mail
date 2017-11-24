@@ -21,19 +21,53 @@ body {
   }
 }
 
+// Typography Overrides
+.text-white {
+  color: $white;
+}
+
+.display {
+  &-large {
+    font-size: 4em !important;
+  }
+
+  &-medium {
+    font-size: 3em !important;
+  }
+
+  &-small {
+    font-size: 1.5em !important;
+  }
+}
+
+
+
 .container.header {
   background: #f3f3f3;
 }
-
 .body-drip {
   border-top: 8px solid #663399;
 }
 
 
-table
 .bg-primary
 .wrapper-inner{
     background-color: $primary-color;
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    span {
+      @extend .text-white;
+    }
+}
+
+
+.btn-white {
+  color: $primary-color !important;
+  background-color: $white !important;
 }
 
 // Full Width Headers
@@ -43,10 +77,10 @@ table
 .bg-none {
   background: none;
 }
-
 .header .columns {
   padding-bottom: 0;
 }
+
 
 .header p {
   color: #fff;

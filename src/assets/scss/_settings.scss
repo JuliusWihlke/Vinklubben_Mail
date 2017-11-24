@@ -98,6 +98,8 @@ $anchor-color-hover: darken($primary-color, 10%);
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
 
+
+
 // 5. Button
 // ---------
 
@@ -105,13 +107,13 @@ $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
   default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+  large: 20px 40px 20px 40px,
 );
 $button-font-size: (
   tiny: 10px,
   small: 12px,
   default: 16px,
-  large: 16px,
+  large: 20px,
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
