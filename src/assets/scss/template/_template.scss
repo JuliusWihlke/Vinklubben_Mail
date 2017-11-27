@@ -53,7 +53,7 @@ body {
 
 .bg-primary
 .wrapper-inner{
-    background-color: darken($primary-color, 10%);
+    background-color: $primary-color;
     p,
     h1,
     h2,
@@ -63,6 +63,21 @@ body {
     span {
       @extend .text-white;
     }
+}
+
+.bg-gray
+.wrapper-inner{
+    background-color: $medium-gray;
+    padding: 25px;
+}
+
+.bg-white >
+.wrapper-inner{
+    background-color: $white;
+}
+
+.rounded {
+  border-radius: 6px !important;
 }
 
 // Full Width Headers
